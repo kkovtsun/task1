@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body{
+	background-color: #d7d2d2;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overfloe-scrolling: touch;
+
+	margin-top: 70px; 
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #42f4dc;
+}
+
+p{
+	line-height: 28px;
+	margin-bottom: 30px;
+}
+
+.centered{
+	text-align: center;
+}
+
+a{
+	color: #f85c37;
+}
+
+a:hover, a:focus{
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+hr{
+	display: block;
+	height: 1px;
+	border: 0px;
+	border-top: 1px solid #ccc;
+	margin:  1em 0;
+	padding: 0;
+}
+
+.navbar{
+	font-weight: 750;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse{
+	background: #2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+	background-color: #42f4dc;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #999;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+#headerwrap{
+	background: url(../img/mou.jpg)
+	 no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 550px;
+	width: 100%;
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#headerwrap h1{
+	text-align: center;
+	letter-spacing: 4px;
+	font-size: 66px;
+	text-shadow:1px 2px 8px #333333;
+}
+
+#headerwrap h2{
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 42px;
+	text-shadow:1px 2px 8px #333333;
+}
+
+.w h3, .wp h3{
+	text-transform: uppercase;
+	text-align: center;
+	color: #383434;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+
+.w{
+	margin-top: -5px;
+	margin-bottom: 10px;
+	width: 100%;
+	background: white;
+}
+.wp{
+	margin-top: -25px;
+	margin-bottom: 10px;
+}
+
+#footer{
+	margin-top: 50px;
+	background: #d582e5;
+	padding-top: 20px;
+}
+
+#footer h3{
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #383434;
+	letter-spacing: 2px;
+}
+
+#footer p{
+	font-size: 18px;
+}
+
+#im{
+	-webkit-box-shadow: 3px 3px 15px 1px rgba(168,156,168,1);
+    -moz-box-shadow: 3px 3px 15px 1px rgba(168,156,168,1);
+    box-shadow: 3px 3px 15px 1px rgba(168,156,168,1);
+}
